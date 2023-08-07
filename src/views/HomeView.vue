@@ -1,38 +1,278 @@
 <template>
- <div class="contianer">
-  <div class="body">
-    <div class="sub_body">
-      <div class="tex">
-        <h3>Eat sleep And</h3>
-        <strong>supper delicicious<br> Burger in town!</strong>
-        <p>Food is any substance consumed to provide nutritional <br>support for an organism.</p>
-      </div>
-      <div class="button"><button>Book A Table</button></div>
-      <div class="box">
-        <div class="sub_box">
-          <h4>Maxican pizza</h4>
-          <p>food is any substance<br> consumed to provide <br>nutritional support for an <br>oranism. </p>
-          <div class="img"><img src="../assets/images/images (11).jpg" alt=""></div>
+ <div class=".container">
+    <div class="body_pro">
+      <div class="sub_body_pro">
+        <div class="header">
+          <h4 style="padding-top: 70px; color: red;">Pupular Dishes</h4>
+          <h1 style="padding: 10px;">Our Delicious<span style="color: orange;;"> Foods</span></h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elid.<br>Repellendus est, magni quasi laudantium</p>
         </div>
-        <div class="sub_box">
-          <h4>Maxican pizza</h4>
-          <p>food is any substance<br> consumed to provide <br>nutritional support for an <br>oranism. </p>
-          <div class="img"><img src="../assets/images/images (10).jpg" alt=""></div>
+        <div class="pro_bar">
+          <div class="sub_bar">
+            <ul>
+              <li><a href="">ALL</a></li>
+              <li><a href="">PIZZA</a></li>
+              <li><a href="">BURGER</a></li>
+              <li><a href="">DRINK</a></li>
+              <li><a href="">SANDWICH</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="sub_box">
-          <h4>Maxican pizza</h4>
-          <p>food is any substance<br> consumed to provide <br>nutritional support for an <br>oranism. </p>
-          <div class="img"><img src="../assets/images/images (7).jpg" alt=""></div>
+        <div class="main_pro">
+          <div class="sub_main1">
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (6).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (2).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (1).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                        <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (9).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+          </div>
+          
+          <div class="sub_main2">
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (10).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (7).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (2).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (5).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+          </div>
+          <div class="sub_main1">
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (4).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (2).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (1).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                        <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (9).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+          </div>
+          
+          <div class="sub_main2">
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (6).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (7).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (6).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (10).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+          </div>
+          <div class="sub_main1">
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (6).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (2).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (1).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                        <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (9).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+          </div>
+          
+          <div class="sub_main2">
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (10).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (7).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (2).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (5).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+          </div>
+          <div class="sub_main1">
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (4).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (2).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (1).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                        <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (9).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+          </div>
+          
+          <div class="sub_main2">
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (6).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (7).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (6).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+                <div class="box_pro">
+                    <div class="discount"><div style="text-align: center; color:white;" class="num_dc">-15%</div></div>
+                    <div class="image"><img src="../assets/images/images (10).jpg" alt=""></div>
+                    <div class="star">Chicken</div>
+                    <div class="text_dc">Fried Chicken Unlimited</div>
+                    <div class="price_dc">PRICE:</div>
+                </div>
+          </div>
+          <!-- <div class="sub_main2">
+            <div class="box_pro"></div>
+            <div class="box_pro"></div>
+            <div class="box_pro"></div>
+            <div class="box_pro"></div>
+          </div> -->
+          
         </div>
-        <div class="sub_box">
-          <h4>Maxican pizza</h4>
-          <p>food is any substance<br> consumed to provide <br>nutritional support for an <br>oranism. </p>
-          <div class="img"><img src="../assets/images/images (9).jpg" alt=""></div>
-        </div>
-      </div>
     </div>
-  </div>
-  <footer>
+      <footer>
         <div class="sub_footer">
             <div class="footer_box">
                 <img src="../IMAG/footer-logo.png" alt=""><br>
@@ -74,7 +314,9 @@
             </div>
         </div>
     </footer>
- </div>
+    </div>
+  </div>
+
 </template>
 
 <style>
